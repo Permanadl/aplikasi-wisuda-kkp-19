@@ -1,0 +1,3 @@
+<a href="{{ $url_reset }}" class="btn btn-info btn-sm modal-reset reset" title="Reset Akun {{ $data->nama_admin }}"><i class="fas fa-lock"></i></a>
+<a href="{{ $url_edit }}" class="btn btn-warning btn-sm modal-show edit" title="Edit Data {{ $data->nama_admin }}"><i class="fas fa-edit"></i></a>
+<a href="{{ $url_destroy }}" class="btn btn-danger btn-sm btn-delete" title="{{ $data->nama_admin }}"><i class="fas fa-trash"></i></a>

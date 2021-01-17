@@ -1,0 +1,1 @@
+<a href="{{ $url_destroy }}" class="btn btn-danger btn-sm btn-delete" title="testimoni {{ $data->nama_mhs }}"><i class="fas fa-trash"></i></a>

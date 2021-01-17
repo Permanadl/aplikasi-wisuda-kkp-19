@@ -1,0 +1,3 @@
+<a href="{{ $url_show }}" class="btn btn-info btn-sm modal-show detail" title="Detail {{ $data->nama_mhs }}"><i class="fas fa-eye"></i></a>
+<a href="{{ $url_edit }}" class="btn btn-warning btn-sm modal-show edit" title="Edit Data {{ $data->nama_mhs }}"><i class="fas fa-edit"></i></a>
+<a href="{{ $url_destroy }}" class="btn btn-danger btn-sm btn-delete" title="{{ $data->nama_mhs }}"><i class="fas fa-trash"></i></a>

@@ -1,0 +1,2 @@
+<a href="{{ $url_edit }}" class="btn btn-warning btn-sm modal-show edit" title="Edit Data {{ $title }}"><i class="fas fa-edit"></i></a>
+<a href="{{ $url_destroy }}" class="btn btn-danger btn-sm btn-delete" title="{{ $title }}"><i class="fas fa-trash"></i></a>
